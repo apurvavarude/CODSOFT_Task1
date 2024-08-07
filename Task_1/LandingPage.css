@@ -1,0 +1,333 @@
+/* External CSS (Department Website */
+
+/* Top Header Blue (manual) */
+.container-fluid1{
+    background-color: #0e0e41!important;
+    text-align: center;
+    padding: 9px;
+    font-family: "Roboto", sans-serif;
+}
+.container-fluid1 a{
+   color: white;
+   text-decoration: none;
+   text-align: center;
+}
+.container-fluid1 a:hover{
+    color: gold;
+    cursor: pointer;
+ }
+
+
+ /* Top Header Yellow with logo (manual) */
+ .second{
+    background-color: #ffc105;
+    display: flex;
+    padding-left: 80px;
+    position: absolute;
+    width: 100%;
+    height: 115px;
+    align-items: center;
+    cursor: pointer;
+    border: 0.2px solid black;
+ }
+ .naac{
+    margin-left: 100px;
+ }
+button{
+    padding-left: 100px;
+    color: #d7a40e;
+ }
+
+
+ /* Navbar sample dropdown from bootstrap */
+ .navbar{
+    margin-top: 100px;
+    text-align: center;
+    background-color: white;
+    font-size: 15px;
+    font-weight: 500;
+ }
+  /* Auto display dropdown list by hovering */
+.dropdown:hover .dropdown-menu {
+   display: block;
+   border: none;
+}
+ .nav-item .nav-link{
+    color: #d7a40e;
+ }
+ .nav-item .nav-link svg{
+   color: #d7a40e;
+}
+ .nav-item .nav-link:hover{
+   color: #d7a40e;
+}
+ .collapse{
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 50px;
+ }
+
+
+ /* Bootstap Carousel */
+ .carousel-item{
+    height: 860px;
+ }
+
+
+ /* HoD Section (manual) */
+ .container1{
+    background-color: #F7F7F7;
+    width: 100%;
+    height: 750px;
+    padding: 40px 170px;
+    font-family: 'Roboto', sans-serif;
+ }
+ .row{
+   margin: 40px 100px;
+ }
+   /* Image card */
+ .card{
+   box-shadow: 5px 2px 8px 3px rgb(216, 215, 215);;
+ }
+ h4{
+   font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin-left: 60px;
+ }
+ .hod1{
+   padding: 60px;
+}
+ .data{
+   text-align: justify;
+   font-size: 14px;
+   padding-left: -100px;
+ }
+  /* Dark content below paragraph */
+ .dark{
+   font-weight: bold;
+ }
+   /* Image card shadow */
+ .box_shadow1 {
+   box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+
+/* About Section (manual) */
+  /* Display of whole box */
+.about{
+   border: 10px solid white;
+   border-radius: 0px 310px 310px 0px ;
+   padding: 50px;
+   margin-top: 40px;
+   margin-bottom: 40px;
+   box-shadow: 5px 2px 8px 3px rgb(216, 215, 215);
+}
+  /* Heading(About IT) */
+.head{
+   font-size: 1.5rem;
+   font-weight: bold;
+   font-family: 'Rubik', sans-serif;
+}
+  /* Number(60) */
+.num{
+   color: #F5576C !important;
+   font-size: 2rem;
+   font-weight: bold;
+   font-family: 'Rubik', sans-serif;
+}
+  /* B.Tech Intake */
+.intake{
+   font-weight: bold;
+   font-family: 'Rubik', sans-serif;
+}
+
+
+/* Our Vision Section (manual) */
+.blue{
+   background-color: #002142;
+   color: white;
+   padding-top: 40px;
+   padding-bottom: 40px;
+   font-family: 'Roboto', sans-serif;
+}
+.blue1{
+   font-size: 2rem;
+   font-weight: bold;
+   text-align: center;
+}
+.blue2{
+   font-size: 14px;
+   padding-left: 100px;
+   padding-right: 100px;
+}
+
+
+/* Our Mission Section (manual) */
+.mission{
+   background-color: #FFBC09;
+   padding-top: 40px;
+   padding-bottom: 40px;
+   font-family: 'Roboto', sans-serif;
+}
+.mission1{
+   font-size: 2rem;
+   font-weight: bold;
+   text-align: center;
+}
+.mission2{
+   font-size: 14px;
+   padding-left: 100px;
+   padding-right: 100px;
+}
+  /* Listed Items */
+li{
+   margin: 0px;
+   padding: 10px;
+   font-size: 14px;
+}
+
+
+/* Upcoming Events section and milestone section(manual) */
+.one p{
+   font-size: 2rem;
+   font-weight: bold;
+}
+.two{
+   background: url(./images/video_bg.jpg);
+   padding-top: -100px;
+}
+.two p{
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.event1{
+   padding: 60px;
+}
+.upcoming{
+   margin-bottom: -10px;
+   margin-top: -15px;
+}
+.upper p{
+   font-size: 18px;
+   border: 0.5px solid rgb(219, 219, 219);
+   width: 80px;
+   margin-left: 15px;
+   margin-top: 15px;
+   text-align: center;
+}
+.lower{
+   margin-left: -20px;
+}
+.lower .sir{
+   font-size: 18px;
+   font-weight: bold;
+   width: 90%;
+   margin-top: 15px;
+   margin-bottom: -10px;
+}
+.lower span{
+   color: #FFBC09 !important;
+   font-size: 14px;
+   font-weight: normal;
+}
+.lower .sirdept{
+   margin-top: -8px;
+   font-size: 13px;
+   font-weight: normal;
+}
+.box1{
+   height: 174px;
+   box-shadow: 5px 2px 8px 3px rgb(216, 215, 215);
+}
+.row .date {
+   border: 0.5px thin grey;
+}
+.row .lower{
+   color: #292b2c;
+   font-size: 18px;
+   font-weight: bold;
+   font-family: 'Rubik', sans-serif;
+}
+.box2{
+   margin-top: 5px;
+   height: 174px;
+   box-shadow: 5px 2px 8px 3px rgb(216, 215, 215);
+}
+.div1{
+   font-weight: 1rem; 
+   font-weight: bold;
+}
+.carousel-inner .carousel-item .milestone_slide p{
+   color: white;
+   font-size: 15px;
+   font-weight: normal;
+   padding: 50px;
+}
+.carousel-inner .carousel-item .milestone_slide p span{
+   color: #FFBC09;
+}
+
+
+/* Top Footer Blue */
+.tophead{
+   font-weight: bold;
+   font-size: 1.1rem;
+   margin-bottom: 0!important;
+}
+svg{
+   height: 25px;
+   width: 20px;
+}
+.logos{
+   display: flex;
+}
+.log{
+   padding-top: 10px;
+   padding-right: 10px;
+}
+  /* For Website counter */
+.counter>span{
+   background: #FFBC09;
+   width: 110%;
+   text-align: left;
+   margin-right: -2px;
+   color: black;
+   border-radius: 3px;
+   padding: 5px 10px 5px 10px;
+   font-size: 22px;
+   box-sizing: border-box;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 400;
+    line-height: 1.5;
+}
+
+
+/* Footer Section */
+footer .row{
+   background-color: #202325;
+   color: white;
+}
+.foot{
+padding: 20px;
+}
+.footer2 a{
+   text-decoration: none;
+   color: white;
+}
+.footer2 a:hover{
+   color: gold;
+   cursor: pointer;
+}
+.top-footer{
+   background-color: #07294D;
+   margin-top: -100px;
+   font-family: 'Rubik', sans-serif;
+}
+.top-footer1{
+   padding: 50px 200px;
+   color: white;
+}
+.fooot{
+   margin: -40px;
+}

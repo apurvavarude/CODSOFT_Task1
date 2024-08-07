@@ -1,0 +1,475 @@
+<!-- HTML file(Department Website) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT Department Website</title>
+    <!-- External css -->
+    <link rel="stylesheet" href="./LandingPage.css">
+
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- Google Font1 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+<!-- Google Font2 -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Bootstrap Script Link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <!-- Top Header Blue (manual)-->
+    <div class="container-fluid1">
+        <a href="#">Admission |</a>
+        <a href="#">News & Events |</a>
+        <a href="#">Photo Gallery |</a>
+    </div>
+
+    <!-- Top Header Yellow with logo (manual)-->
+    <div class="second ">
+        <div>
+            <img src="./images/ritlogo2.png" alt="ritlogo" >
+        </div>
+        <div class="naac">
+            <img src="./images/naaclogo.png" alt="naaclogo">
+        </div>
+    </div>
+
+    <!-- Navbar sample dropdown from bootstrap-->
+    <nav  class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand home" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item ">
+                <a class="nav-link" href="#" role="button">
+                  <!-- Home icon taken from bootstap icon -->
+                  <svg class="homeicon" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+                    <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h4c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5"/>
+                  </svg>
+                </a></li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    About Us
+                  </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">About The Department</a></li>
+                  <li><a class="dropdown-item" href="#">Vision and Mission</a></li>
+                  <li><a class="dropdown-item" href="#">PEO's And PO's</a></li>
+                  <li><a class="dropdown-item" href="#">HOD's Message</a></li>
+                  <li><a class="dropdown-item" href="#">Department Achievements</a></li>
+                  <li><a class="dropdown-item" href="#">Committees</a></li>
+                  <li><a class="dropdown-item" href="#">Department Booklet</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Academics
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Overview</a></li>
+                  <li><a class="dropdown-item" href="#">Programs</a></li>
+                  <li><a class="dropdown-item" href="#">Laboratories</a></li>
+                  <li><a class="dropdown-item" href="#">Academic Result</a></li>
+                  <li><a class="dropdown-item" href="#">Curriculum</a></li>
+                  <li><a class="dropdown-item" href="#">Time table</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Faculty
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Teaching Faculty</a></li>
+                  <li><a class="dropdown-item" href="#">Teaching staff</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Research
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Research Facilities</a></li>
+                  <li><a class="dropdown-item" href="#">Research Area Of Faculties</a></li>
+                  <li><a class="dropdown-item" href="#">Faculty Publications</a></li>
+                  <li><a class="dropdown-item" href="#">Student Publications</a></li>
+                  <li><a class="dropdown-item" href="#">Patents</a></li>
+                  <li><a class="dropdown-item" href="#">Funded Research Projects(Govt/Industry)</a></li>
+                  <li><a class="dropdown-item" href="#">Industry Consultancy</a></li>
+                  <li><a class="dropdown-item" href="#">Student Research Projects</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Student
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">About Student Association</a></li>
+                  <li><a class="dropdown-item" href="#">Activities</a></li>
+                  <li><a class="dropdown-item" href="#">Student Achievements(GATE/GRE/Sports/CAT/Competitions)</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Interaction
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Conference Session Chair</a></li>
+                  <li><a class="dropdown-item" href="#">Expert Lectures</a></li>
+                  <li><a class="dropdown-item" href="#">Editorial Board Members</a></li>
+                  <li><a class="dropdown-item" href="#">Reviewers For Journals</a></li>
+                  <li><a class="dropdown-item" href="#">External Examiner</a></li>
+                  <li><a class="dropdown-item" href="#">External Thesis Evaluated</a></li>
+                  <li><a class="dropdown-item" href="#">Visiting Researcher</a></li>
+                  <li><a class="dropdown-item" href="#">Community Development Projects</a></li>
+                  <li><a class="dropdown-item" href="#">Expert Lectures Delivered To Industry People</a></li>
+                  <li><a class="dropdown-item" href="#">Workshop</a></li>
+                  <li><a class="dropdown-item" href="#">MoUs</a></li>
+                  <li><a class="dropdown-item" href="#">Industry Institute Interaction</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 Events
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Organized</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Best Practices
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Reading Club Activity</a></li>
+                  <li><a class="dropdown-item" href="#">Innovative Practice League</a></li>
+                  <li><a class="dropdown-item" href="#">Quality Circle</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Alumni
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Testimonial</a></li>
+                  <li><a class="dropdown-item" href="#">Distinguished Alumni</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Placement
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Placement Statistics</a></li>
+                  <li><a class="dropdown-item" href="#">Placement Details</a></li>
+                  <li><a class="dropdown-item" href="#">Recruiting Companies</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Bootstap Carousel -->
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/dept_carasoul1.jpg" class="d-block w-100" alt="Department1">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/dept_carasoul2.jpg" class="d-block w-100" alt="Department2">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- HoD Section (manual)-->
+      <div class="container1">
+          <h4>Message From HOD</h4>
+          <!-- Inside row split two colums (4:8) for image and content-->
+          <div class="row hod1">
+
+              <div class="container col-lg-4">
+                <!-- Bootstrap card is used for image-->
+                <div class="card box-shadow1" style="width: 20rem; height: 415px;">
+                  <img src="./images/hod.png" class="card-img-top" alt="HoD">
+                  <div class="card-body">
+                    <p class="card-text">Head of Department</p><hr>
+                  </div>
+                </div>
+              </div>
+             
+              <div class="data col-lg-8">
+                <p>Information Technology (IT) is always driven by the demands of the new & competitive business environment.Organizations look to maximize their productivity with the use of the applications built by IT Professionals retaining societal concerns.It gives me immense pleasure to lead the Department of Information Technology. The foremost motto of our department is to provide quality technical education to our students, promising them to become successful IT Professionals.</p>
+                <p>With effective teaching & learning practices, we make students focus on core domain areas of computing,programming, analytical skills and soft skills. By Inculcating, strong research & innovation skills we strive on making students equipped to benefit the business world with Information Technology (IT). From the academic year 2017-18, we have initiated Choice-Based Curriculum Structure (CBCS), which has provided more flexibility to students for selecting core as well as preferred courses enhancing their multidisciplinary skills. To successfully implement this structure we have qualified and dedicated faculties who train students in basic & advanced areas like Big Data, Machine Learning, Cloud computing, Cybersecurity, Artificial Intelligence etc. With strong engagement in research and innovation and effective use of ICT, we have developed the center of excellence in areas of Machine Learning, IoT, Android application development and Cyber Security.Industry experts are invited for member of Board of Studies & Advisory committee, training programs and workshops. Industry MoUs has helped us in coping up with the need for industries that resulted in growth ofplacements and internships in reputed companies. Faculties &students have achieved success in various competitions atstate and national level.</p>
+                <p>I am confident that our department students & faculties would be an asset to the industry and useful for society through their technical and managerial capabilities. </p>
+                <p>Sincerely,</p>
+                <p class="dark">Dr. A. C. Adamuthe</p>
+                <p class="dark">Head, Department of Inforamtion Technology</p>
+              </div>
+          </div>
+      </div>
+
+      <!-- About Section (manual)-->
+      <!-- Split column into (7th) span column -->
+      <div class="about col-sm-7">
+        <div class="head">
+          <p>About Information Technologgy</p>
+        </div>
+        <div class="info">
+          <p>The Department of Information Technology was started in the year 2001 with the intake of 60 students. From year 2019-20 department has offering B. Tech. in Computer Science & Information Technology. The department has got two years of Accreditation by NBA (National Board of Accreditation) in the academic year 2013-14. Our training & placement department works hard to make students liable to face interviews. Due to this efforts last three year’s placement is more than 9.. more</p>
+        </div>
+        <div class="num">60</div>
+        <div class="intake">B.Tech (Intake)</div>
+      </div>
+
+      <!-- Our Vision Section (manual) -->
+      <div class="blue">
+        <div class="container">
+          <p class="blue1">Our Vision</p>
+          <p class="blue2">To become a prominent department of Information Technology producing competent IT professionals with research and innovation skills, inculcating moral values and societal concerns.</p>
+        </div>
+      </div>
+
+      <!-- Our Mission Section (manual) -->
+      <div class="mission">
+        <div class="container">
+          <p class="mission1">Our Mission</p>
+          <ul class="mission2">
+            <li>To offer high quality education through state of art curriculum and innovative teaching & learning practices.</li>
+            <li>To establish state of art laboratories and center of excellence in the field of technology.</li>
+            <li>To adopt professional practice, standards and values.</li>
+            <li>To inculcate problem solving aptitude in graduates with lifelong learning skills to become valuable resource for IT industry and society.</li>
+            <li>To create, share, and apply knowledge in Computer Science and Information Technology, including in interdisciplinary areas that extend the scope of Computer Science and Information Technology to benefit society.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Upcoming Events section and milestone section(manual) -->
+      <div class="container">
+        <!-- Inside row split two colums (6:6) for upcoming events and milestone -->
+        <div class="row event1">
+
+          <!-- Upcoming event -->
+          <div class="one col-sm-6">
+            <div class="upcoming"><p>Upcoming Events</p></div>
+            <!-- box1 -->
+            <div class="box1 col-sm-11">
+              <div class="row">
+                <div class="upper col-sm-3 ">
+                  <p>15 <br> Sep <br> 10</p>
+                </div>
+                <div class="lower col-sm-9">
+                  <p class="sir">Sir Mokshagundam Visvesvaraya's birth Anniversary<br>
+                    <!-- bootstrap link for person icon -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                    <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"/>
+                  </svg>
+                  <span>&nbsp;&nbsp;IT Department, RIT</span></p><hr>
+                  <p class="sirdept">Department of Information Technology celebrated Engineer’s Day on Sir Mokshagundam Visvesvaraya's birth anniversary.</p>
+                </div>
+              </div>
+            </div>
+            <!-- box2 -->
+            <div class="box2 col-sm-11">
+              <div class="row">
+                <div class="upper col-sm-3 ">
+                  <p>10 <br> Sep <br> <span>10</span></p>
+                </div>
+                <div class="lower col-sm-9">
+                  <p class="sir">Skilling Program on “IT for Problem Solving”<br><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                    <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"/>
+                  </svg><span>&nbsp;&nbsp;IT Department, RIT</span></p><hr>
+                  <p class="sirdept">6 Days Student’s Skilling program on “IT for Problem Solving” organized by IT Department, RIT.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Milestone -->
+          <div class="two row col-sm-6">
+            <div class="col-sm-8">
+              <p>Milestone <br>Achievements</p>
+            </div>
+            
+            <div class="col-sm-4">
+              <img src="./images//milestone_symbol.png" alt="symbol" width="100px">
+            </div>
+            
+            <!-- In Milestone section, used bootstrap carousel, only for sliding content -->
+            <div id="carouselExampleIndicators" class="carousel slide" style="height: 300px;">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <li class="milestone_slide"><p>Department Team of Quality Circle Received Excellent Award at National Convention on Quality Concepts held at Aurangabad in December 2022</p></li>
+                </div>
+                <div class="carousel-item">
+                  <li class="milestone_slide"><p>Mrs. A.B. Patil bagged the first prize in the Institute Level Innovative Practice League (IPL-2020) organized by RIT-CTL.<br><br><span>By RIT-CTL</span></p></li>
+                </div>
+                <div class="carousel-item">
+                  <li class="milestone_slide"><p>Mrs. A.B. Patil awarded "Best Chapter Chairman Award 2020" by Indian Society for Technical Education (ISTE) Maharashtra-Goa Division.</p></li>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Top Footer Blue -->
+        <div class="top-footer">
+          <!-- In row split columns(3:3:3:3) -->
+          <div class="row top-footer1">
+
+            <!-- 1st div -->
+            <div class="first col-sm-3">
+              <p class="tophead">Rajarambapu Institute of Technology, Rajaramnagar</p>
+                    <p>
+                      <!-- SVG for bootstrap icons -->
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+                      </svg>
+                      Tal. Walwa Dist. Sangli, Maharashtra(415414)
+                    </p>
+                    <p>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                        <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
+                      </svg>
+                      director@ritindia.edu
+                    </p>
+                    <p>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+                      </svg>
+                      Women Helpline Toll Free Number<br>1800 203 5812
+                    </p>
+                    <p>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tablet" viewBox="0 0 16 16">
+                        <path d="M12 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+                        <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/>
+                      </svg>
+                      Landline : + 91 2342 - 220329, <br>
+                    + 91 99 70 700 700<br>
+                    Admission : + 91 99 70 700 800<br>
+                    MBA : + 91 99 70 700 810</p>
+                    <p>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-newspaper" viewBox="0 0 16 16">
+                        <path d="M0 2.5A1.5 1.5 0 0 1 1.5 1h11A1.5 1.5 0 0 1 14 2.5v10.528c0 .3-.05.654-.238.972h.738a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 1 1 0v9a1.5 1.5 0 0 1-1.5 1.5H1.497A1.497 1.497 0 0 1 0 13.5zM12 14c.37 0 .654-.211.853-.441.092-.106.147-.279.147-.531V2.5a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0-.5.5v11c0 .278.223.5.497.5z"/>
+                        <path d="M2 3h10v2H2zm0 3h4v3H2zm0 4h4v1H2zm0 2h4v1H2zm5-6h2v1H7zm3 0h2v1h-2zM7 8h2v1H7zm3 0h2v1h-2zm-3 2h2v1H7zm3 0h2v1h-2zm-3 2h2v1H7zm3 0h2v1h-2z"/>
+                      </svg>
+                      +91 - 2342 – 220989
+                    </p>
+              <h5>Follow Us
+                <div class="logos">
+                  <!-- Bootstrap icons links -->
+                  <div class="log logo1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                  </svg></div></button>
+                  <div class="log logo2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                    <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+                  </svg></div>
+                  <div class="log logo3"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-camera-fill" viewBox="0 0 16 16">
+                    <path d="M10.5 8.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0"/>
+                    <path d="M2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4zm.5 2a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1m9 2.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0"/>
+                  </svg></div>
+                  <div class="log logo4"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                    <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"/>
+                  </svg></div>
+                </div>
+              </h5>
+            </div>
+            <!-- 2nd Div -->
+            <div class="sec col-sm-3">
+              <p class="tophead">Useful Links</p>
+                <p>Anti Ragging Cell</p>
+                <p>Scholarship</p>
+                <p>SMT. Kusumtai Patil Meritorious Scholarship</p>
+                <p>Lead College</p>
+                <p>Swayam Registered Courses</p>
+                <p>Internal Complaints Committee (ICC)</p>
+                <p>For Campus Placement Contact</p>
+                <p>Mandatory Disclosure</p>
+                <p>AICTE Approvals</p>
+                <p>RTI</p>
+            </div>
+            <!-- 3rd Div -->
+            <div class="third col-sm-3">
+              <p class="tophead">Quick Link</p>
+                <p>Anti Ragging Cell</p>
+                <p>RITAGE</p>
+                <p>Moodle Server</p>
+                <p>RITDVS Intranet Link (Within Campus)</p>
+                <p>RITDVS</p>
+                <p>Annual Report</p>
+                <p>NIRF</p>
+                <p>e-Governance</p>
+                <p>RIT Patsanstha Loan Application Form</p>
+                <h5>Website Counter</h5>
+                <div class="counter">
+                  <span>2</span>
+                  <span>1</span>
+                  <span>7</span>
+                  <span>8</span>
+                  <span>2</span>
+                  <span>4</span>
+                  <span>1</span>
+                </div>
+            </div>
+            <!-- 4th Div -->
+            <div class="fourth col-sm-3">
+              <p class="tophead">Other Link</p>
+              <p>TEQIP II</p>
+              <p>Alumni Portal</p>
+              <p>ICT for Education</p>
+              <p>Technology Business Incubator</p>
+              <p>IIC</p>
+              <p>International Program Cell</p>
+              <p>International Admission</p>
+              <p>General Instructions to Students, Faculty & Staff</p>
+              <p>RIT-MATLAB</p>
+              <p>AICTE Feedback</p>
+              <p>Code of Conduct</p>
+            </div>
+          </div>
+        </div>
+
+      <!-- Footer Section -->
+      <footer>
+        <div class="container-fluid fooot">
+          <!-- In row split columns (6:6) for copyright and ref_links -->
+          <div class="row foot">
+            <div class="footer1 col-sm-6">
+              <p>&copy; 2024 All Rights Reserved by RIT, Rajaramnagar.</p>
+            </div>
+            <div class="footer2 col-sm-6">
+              <a href="#">Privacy Policy</a>
+              <a href="#">Terms & Conditions</a>
+              <a href="#">Design and developed by Computer Center</a>
+            </div>
+          </div>
+        </div> 
+      </footer>
+
+</body>
+</html>
